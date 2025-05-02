@@ -1,1 +1,3 @@
 # CARMA
+
+Team CARMA explores efficient heterogeneous SoC design by integrating RISC-V scalar cores with a Vector Processing Unit (Saturn) and a Deep Neural Network accelerator (Gemmini) using the Chipyard framework. While existing accelerators excel at either vector-heavy or structured tasks, our hybrid architecture dynamically leverages both. Saturn outperforms in vector workloads like matrix transposition, while Gemmini leads in dense operations like GEMM. By configuring the accelerators and evaluating performance, we demonstrate the benefits of this modular approach. Future work includes full hybrid integration, dynamic workload scheduling, and post-layout performance/power/area (PPA) analysis.
