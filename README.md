@@ -16,3 +16,12 @@ Follow the following steps for installing and setting up Chipyard. (Or follow th
 3. cd chipyard
 4. ./build-setup.sh riscv-tools
 
+The Carma.scala is a config file which can be used to configure the generators.
+After configuring, follow these steps for building the generator.
+
+1. cd sims/verilator
+2. make CONFIG=<your_config_class>
+
+This will build the generator you have configured. If you want to build it with many given testbenches(in chipyard) 
+
+1. make CONFIG=<your_config_class> run-binary BINARY=(for eg)../../generators/gemmini/software/gemmini-rocc-tests/build/baremetalC/template-baremetal (testbench file location)
