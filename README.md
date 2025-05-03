@@ -6,7 +6,7 @@ Team CARMA explores efficient heterogeneous SoC design by integrating RISC-V sca
 ## How to reproduce the project
 
 Everything is required to use the Chipyard framework to configure, build, generate hardware, develope testbenches and run simulation.
-To use our project, you'll need to install the Chipyard framework in your local machine or remote server, AWS EC2 F2 instance especially for FireSim simulatiom. 
+To use our project, you'll need to install the Chipyard framework in your local machine or remote server, AWS EC2 F2 instance especially for FireSim simulation. 
 
 
 Follow the following steps for installing and setting up Chipyard. (Or follow the guidance in Chipyard's website https://chipyard.readthedocs.io/en/latest/Chipyard-Basics/Initial-Repo-Setup.html)
@@ -32,8 +32,8 @@ This will build the generator you have configured.
 
 ## Test your hardware (SoC) with testbenches
 
-Some testbences of Saturn-Soc and Gemmini-SoC are provided in the CARMA_tb.
-If you want to build  the hardware and test it with a given testbench in a single make command
+Some testbences of Saturn-Soc and Gemmini-SoC are provided in the CARMA_tb. The easiest way to build these testbences is going to each generator's directory and use the specific make file to build them.
+If you want to build the hardware and test it with a given testbench in a single make command
 
 1. make CONFIG=<your_config_class> run-binary BINARY=(for eg)../../generators/gemmini/software/gemmini-rocc-tests/build/baremetalC/template-baremetal (testbench file location)
 
