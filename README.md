@@ -40,7 +40,7 @@ If you want to build  the hardware and test it with a given testbench in a singl
 
 
 
-## Statement:
+## Statements:
 
 1. The codes are mostly from UC-Berkely and ETH Zurich and University of Bologna
 2. We cannot put everything on this github repo since Chipyard is large.
