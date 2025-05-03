@@ -17,7 +17,7 @@ Follow the following steps for installing and setting up Chipyard. (Or follow th
 4. ./build-setup.sh riscv-tools
 
 
-##Build the hardware (SoC)
+## Build the hardware (SoC)
 
 The Carma.scala is a config file which can be used to configure the generators (hardware).
 After downloading the CARMA.scala, put it in ($Chipyard_Base)/generators/chipyard/src/main/scala/config. Now, go to each generator's directory for more detailed configurations.
@@ -30,7 +30,7 @@ Next, if everything is ready, follow these steps for building the generator.
 This will build the generator you have configured. 
 
 
-##Test your hardware (SoC) with testbenches
+## Test your hardware (SoC) with testbenches
 
 Some testbences of Saturn-Soc and Gemmini-SoC are provided in the CARMA_tb.
 If you want to build  the hardware and test it with a given testbench in a single make command
