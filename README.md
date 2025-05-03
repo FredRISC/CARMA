@@ -42,6 +42,6 @@ If you want to build  the hardware and test it with a given testbench in a singl
 
 ## Statements:
 
-1. The codes are mostly from UC-Berkely and ETH Zurich and University of Bologna
+1. The codes are mostly from UC-Berkely, ETH Zurich and University of Bologna, but with some modifications
 2. We cannot put everything on this github repo since Chipyard is large.
 
